@@ -1,0 +1,130 @@
+[00:00:02.489] Server  LOG     ✓ Ready in 1752ms
+[00:00:03.732] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.865] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:00:13.461] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.578] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:00:18.954] Browser LOG     Analyzing query: Our company stores EU customer data on AWS servers located in the US. We collect email addresses, IP addresses, and behavioral tracking data for marketing analytics. We do not currently have a documented data retention policy. What compliance risks do we face under GDPR, and what steps should we take immediately?
+[00:00:18.955] Browser LOG     SENDING REQUEST TO: http://localhost:8002/analyze
+[00:00:18.955] Browser LOG     PAYLOAD: {"query":"Our company stores EU customer data on AWS servers located in the US. We collect email addresses, IP addresses, and behavioral tracking data for marketing analytics. We do not currently have a documented data retention policy. What compliance risks do we face under GDPR, and what steps should we take immediately?"}
+[00:00:25.452] Browser ERROR   API Error: {}
+[00:01:38.537] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:48.952] Browser LOG     Analyzing query: Our company stores EU customer data on AWS servers located in the US. We collect email addresses, IP addresses, and behavioral tracking data for marketing analytics. We do not currently have a documented data retention policy. What compliance risks do we face under GDPR, and what steps should we take immediately?
+[00:01:48.952] Browser LOG     SENDING REQUEST TO: http://localhost:8002/analyze
+[00:01:48.952] Browser LOG     PAYLOAD: {"query":"Our company stores EU customer data on AWS servers located in the US. We collect email addresses, IP addresses, and behavioral tracking data for marketing analytics. We do not currently have a documented data retention policy. What compliance risks do we face under GDPR, and what steps should we take immediately?"}
+[00:01:51.298] Browser ERROR   API Error: {}
+[00:05:53.074] Browser LOG     Analyzing query: Our company stores EU customer data on AWS servers located in the US. We collect email addresses, IP addresses, and behavioral tracking data for marketing analytics. We do not currently have a documented data retention policy. What compliance risks do we face under GDPR, and what steps should we take immediately?
+[00:05:53.074] Browser LOG     SENDING REQUEST TO: http://localhost:8002/analyze
+[00:05:53.074] Browser LOG     PAYLOAD: {"query":"Our company stores EU customer data on AWS servers located in the US. We collect email addresses, IP addresses, and behavioral tracking data for marketing analytics. We do not currently have a documented data retention policy. What compliance risks do we face under GDPR, and what steps should we take immediately?"}
+[00:05:55.427] Browser ERROR   API Error: {}
+[00:08:07.051] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:11.386] Browser LOG     Analyzing query: Our company stores EU customer data on AWS servers located in the US. We collect email addresses, IP addresses, and behavioral tracking data for marketing analytics. We do not currently have a documented data retention policy. What compliance risks do we face under GDPR, and what steps should we take immediately?
+[00:08:11.386] Browser LOG     SENDING REQUEST TO: http://localhost:8002/analyze
+[00:08:11.387] Browser LOG     PAYLOAD: {"query":"Our company stores EU customer data on AWS servers located in the US. We collect email addresses, IP addresses, and behavioral tracking data for marketing analytics. We do not currently have a documented data retention policy. What compliance risks do we face under GDPR, and what steps should we take immediately?"}
+[00:08:13.722] Browser ERROR   API Error: {}
+[00:08:58.945] Server  LOG     ✓ Compiled in 726ms
+[00:09:16.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:26.922] Browser LOG     Analyzing query: Our company stores EU customer data on AWS servers located in the US. We collect email addresses, IP addresses, and behavioral tracking data for marketing analytics. We do not currently have a documented data retention policy. What compliance risks do we face under GDPR, and what steps should we take immediately?
+[00:09:26.922] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:09:26.922] Browser LOG     PAYLOAD: {"query":"Our company stores EU customer data on AWS servers located in the US. We collect email addresses, IP addresses, and behavioral tracking data for marketing analytics. We do not currently have a documented data retention policy. What compliance risks do we face under GDPR, and what steps should we take immediately?"}
+[00:26:49.752] Browser LOG     Analyzing query: We store pseudonymized health research data where identifiers are replaced with unique codes, but we retain a separate re-identification key internally.
+[00:26:49.753] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:26:49.753] Browser LOG     PAYLOAD: {"query":"We store pseudonymized health research data where identifiers are replaced with unique codes, but we retain a separate re-identification key internally."}
+[00:27:13.795] Browser LOG     Analyzing query: We collect IP addresses and device fingerprints to prevent fraud and secure user accounts. We do not request explicit consent for this processing.
+[00:27:13.795] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:27:13.795] Browser LOG     PAYLOAD: {"query":"We collect IP addresses and device fingerprints to prevent fraud and secure user accounts. We do not request explicit consent for this processing."}
+[00:27:39.987] Browser LOG     Analyzing query: We use AI to infer users' political preferences based on their browsing behavior for targeted advertising.
+[00:27:39.987] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:27:39.987] Browser LOG     PAYLOAD: {"query":"We use AI to infer users' political preferences based on their browsing behavior for targeted advertising."}
+[00:28:04.621] Browser LOG     Analyzing query: We collect fully anonymized, aggregated website traffic statistics with no ability to re-identify individuals.
+[00:28:04.621] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:28:04.621] Browser LOG     PAYLOAD: {"query":"We collect fully anonymized, aggregated website traffic statistics with no ability to re-identify individuals."}
+[00:28:25.807] Browser LOG     Analyzing query: We store EU customer data on AWS US servers using Standard Contractual Clauses and have completed a Transfer Impact Assessment.
+[00:28:25.807] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:28:25.807] Browser LOG     PAYLOAD: {"query":"We store EU customer data on AWS US servers using Standard Contractual Clauses and have completed a Transfer Impact Assessment."}
+[00:39:48.022] Browser LOG     Analyzing query: We process employee salary and tax information to fulfill employment contracts and legal obligations.
+
+[00:39:48.022] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:39:48.022] Browser LOG     PAYLOAD: {"query":"We process employee salary and tax information to fulfill employment contracts and legal obligations.\n"}
+[00:40:23.897] Browser LOG     Analyzing query: We process genetic test results for users who have provided explicit written consent for research participation.
+[00:40:23.897] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:40:23.897] Browser LOG     PAYLOAD: {"query":"We process genetic test results for users who have provided explicit written consent for research participation."}
+[00:40:54.219] Browser LOG     Analyzing query: We store EU customer data encrypted on servers located in Germany.
+[00:40:54.219] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:40:54.219] Browser LOG     PAYLOAD: {"query":"We store EU customer data encrypted on servers located in Germany."}
+[00:41:50.340] Browser LOG     Analyzing query: We use cookies for behavioral advertising and obtain explicit opt-in consent before tracking.
+[00:41:50.340] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:41:50.340] Browser LOG     PAYLOAD: {"query":"We use cookies for behavioral advertising and obtain explicit opt-in consent before tracking."}
+[00:43:50.567] Browser LOG     Analyzing query: We process criminal background check data for hiring decisions.
+[00:43:50.567] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:43:50.567] Browser LOG     PAYLOAD: {"query":"We process criminal background check data for hiring decisions."}
+[00:44:19.039] Browser LOG     Analyzing query: We transfer EU user data to a US-based analytics provider without using Standard Contractual Clauses or conducting a Transfer Impact Assessment.
+[00:44:19.040] Browser LOG     SENDING REQUEST TO: http://localhost:8001/analyze
+[00:44:19.040] Browser LOG     PAYLOAD: {"query":"We transfer EU user data to a US-based analytics provider without using Standard Contractual Clauses or conducting a Transfer Impact Assessment."}
